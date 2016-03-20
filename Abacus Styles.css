@@ -1,0 +1,36 @@
+.bead {
+    height: 70px;
+    width: 50px;
+    background-color: brown;
+    border-style: solid;
+    border-radius: 50%;
+    box-shadow: 0px -11px 23px -3px black inset;
+    margin-top: -35px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.row {
+    clear: both;
+    border-style: solid;
+    border-color: darkgray;
+    margin-top: 70px;
+}
+
+.right {
+    float: right;
+}
+
+#frame {
+width: 800px;
+    border-width: 20px;
+    border-style: outset;
+    border-color: brown;
+    padding-bottom: 70px;
+}
