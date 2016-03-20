@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sihtmark</title>
+    <link rel="stylesheet" href="Sihtmark%20Styles.css">
+
+
+</head>
+<body>
+<img src="duck.png" id="duck">
+
+<div id="mainDiv">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+</div>
+
+<script>
+    window.onload = function() {
+        var sihtmark = document.getElementById('mainDiv')
+        sihtmark.onclick = function () {
+            var top = (Math.random()*500)
+            var left = (Math.random()*500)
+            sihtmark.style.left = left+"px"
+            sihtmark.style.top = top+"px"
+        }
+
+    }
+</script>
+
+</body>
+</html>

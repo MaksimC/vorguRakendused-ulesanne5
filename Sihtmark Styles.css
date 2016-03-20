@@ -1,0 +1,72 @@
+#mainDiv {
+    position: fixed;
+    width: 120px;
+    height: 120px;
+    left: 500px;
+    top:400px;
+    background-color: transparent;
+}
+#duck{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+div div {
+    border-style: solid;
+    border-radius: 50%;
+    position: absolute;
+}
+
+div:nth-child(1){
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-color: grey;
+    left: 0%;
+    top: 0%;
+}
+div:nth-child(2){
+    height: 84%;
+    width: 84%;
+    background-color: red;
+    border-color: white;
+    left: 8%;
+    top: 8%;
+}
+div:nth-child(3){
+    height: 68%;
+    width: 68%;
+    background-color: white;
+    border-color: red;
+    left: 16%;
+    top: 16%;
+
+}
+div:nth-child(4){
+    height: 52%;
+    width: 52%;
+    background-color: red;
+    border-color: white;
+    left: 24%;
+    top: 24%;
+
+}
+div:nth-child(5){
+    height: 36%;
+    width: 36%;
+    background-color: white;
+    border-color: red;
+    left: 32%;
+    top: 32%;
+
+}
+div:nth-child(6){
+    height: 20%;
+    width: 20%;
+    background-color: red;
+    border-color: white;
+    left: 40%;
+    top: 40%;
+}
